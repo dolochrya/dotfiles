@@ -1,0 +1,29 @@
+@import "./rose-pine.css";
+
+* {
+        all: unset;
+        font-size: 0.9rem;
+}
+
+window#waybar {
+}
+
+#workspaces {
+}
+
+#workspaces button.active {
+        color: @rose;
+}
+
+#workspaces button.urgent {
+        color: @love;
+}
+
+#clock {
+        font-size: 1.3rem;
+        font-weight: 500;
+}
+
+#cpu {
+        margin: 0 0 0 0;
+}

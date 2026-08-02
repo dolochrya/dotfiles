@@ -1,0 +1,83 @@
+// -*- mode: jsonc -*-
+{
+    // "layer": "top",
+    "position": "top",
+    "height": 30,
+    //"width": 1920,
+    "spacing": 4, // Gaps between modules
+
+    "modules-left": [
+            "hyprland/workspaces"
+    ],
+    "modules-center": [
+            "clock"
+    ],
+    "modules-right": [
+            "cpu",
+            "temperature",
+            "memory",
+            "sway/language",
+            "tray"
+    ],
+
+    "hyprland/workspaces": {
+            "disable-scroll": true,
+            "all-outputs": true,
+            "warp-on-scroll": false,
+            "format": "[ {name}: {icon} ]",
+            "format-icons": {
+                    "1": "inf",
+                    "2": "dc/spt",
+                    "3": "brw",
+                    "4": "",
+                    "5": "",
+                    "6": "red",
+                    "9": "brw",
+                    "10": "trm",
+                    "urgent": "!",
+                    "focused": "",
+                    "default": ""
+            }
+    },
+
+    "tray": {
+        // "icon-size": 21,
+        "spacing": 10,
+        // "icons": {
+        //   "blueman": "bluetooth",
+        //   "TelegramDesktop": "$HOME/.local/share/icons/hicolor/16x16/apps/telegram.png"
+        // }
+    },
+
+    "clock": {
+            "timezone": "Europe/Prague",
+            "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+            "format": "{:%a - %H:%M}",
+            "format-alt": "{:%Y-%m-%dT%H:%M:%S+02:00 | %V-%u}"
+    },
+
+    "cpu": {
+            "format": "[ cpu: {usage}%",
+                    "tooltip": false
+    },
+
+    "temperature": {
+            "thermal-zone": 2,
+            "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+            "critical-threshold": 85,
+            "format-critical": "{temperatureC}C - ABOUT TO EXPLODE NGL",
+            "format": " {temperatureC}C ]"
+    },
+
+    "memory": {
+            "format": "[ mem: {}% ] "
+    },
+
+    "network": {
+            "format-ethernet": "[net]",
+            "tooltip-format": "{ifname}: {ipaddr}/{cidr}",
+            "format-linked": "{ifname} (No IP) 󰊗",
+            "format-disconnected": "Disconnected",
+            "format-alt": "{ifname} via GW:{gwaddr}"
+    }
+}
