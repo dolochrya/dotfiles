@@ -10,5 +10,4 @@ keybind = ctrl+j=goto_split:down
 keybind = ctrl+k=goto_split:top
 keybind = ctrl+l=goto_split:right
 
-keybind = ctrl+n=new_tab
 keybind = ctrl+w=close_surface

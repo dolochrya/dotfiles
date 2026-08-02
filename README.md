@@ -36,3 +36,6 @@
 | **Wallpaper-switcher** | `waypaper`                | **Wallpaper**     | `awww`                |
 | **Fetch**              | `fastfetch`               | **Shell**         | `bash` `starship`     |
 | **Terminal**           | `ghostty` `tmux`          | | |
+
+## Notes
+Ghostty for panes, tmux for tabs
