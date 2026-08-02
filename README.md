@@ -1,4 +1,4 @@
-<h1 align="center">Serenityy's Dotfiles </h1>
+<h1 align="center">Dolochrya's Dotfiles </h1>
 
 <br>
 
