@@ -38,4 +38,3 @@
 | **Terminal**           | `ghostty` `tmux`          | | |
 
 ## Notes
-Ghostty for panes, tmux for tabs
