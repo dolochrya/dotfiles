@@ -1,0 +1,14 @@
+theme = rose-pine
+font-family = 
+mouse-hide-while-typing = true
+
+keybind = ctrl+'=new_split:right
+keybind = ctrl+-=new_split:down
+
+keybind = ctrl+h=goto_split:left
+keybind = ctrl+j=goto_split:down
+keybind = ctrl+k=goto_split:top
+keybind = ctrl+l=goto_split:right
+
+keybind = ctrl+n=new_tab
+keybind = ctrl+w=close_surface
